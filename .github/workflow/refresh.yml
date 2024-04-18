@@ -1,5 +1,5 @@
 name: refresh jsdelivr
-run-name: "刷新jsdelivr缓存"
+run-name: "刷新 jsdelivr 缓存"
 on:
   push:
   workflow_dispatch:
