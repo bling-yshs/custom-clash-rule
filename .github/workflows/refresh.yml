@@ -1,11 +1,11 @@
 name: refresh jsdelivr
-run-name: "刷新 jsdelivr 缓存"
+run-name: 'refresh jsdelivr'
 on:
   push:
   workflow_dispatch:
 
 jobs:
-  on-push:
+  refresh-jsdelivr:
     runs-on: ubuntu-latest
     steps:
       - name: Purge jsDelivr cache
@@ -13,3 +13,4 @@ jobs:
         with:
           path: |
             rules
+          retry: '3'
