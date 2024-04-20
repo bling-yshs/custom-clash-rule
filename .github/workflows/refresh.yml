@@ -9,8 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Purge jsDelivr cache
-        uses: gacts/purge-jsdelivr-cache@v1.1.0
+        uses: bling-yshs/purge-jsdelivr-for-directory@v1.0
         with:
-          url: |
-            https://cdn.jsdelivr.net/gh/bling-yshs/custom-clash-rule@main/proxy.yaml
-            https://cdn.jsdelivr.net/gh/bling-yshs/custom-clash-rule@main/direct.yaml
+          path: |
+            rules
