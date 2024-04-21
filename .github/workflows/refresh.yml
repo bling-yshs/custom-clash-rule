@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Purge jsDelivr cache
-        uses: bling-yshs/purge-jsdelivr-for-directory@v1
+        uses: bling-yshs/purge-jsdelivr-for-directory@v1.0.0
         with:
           path: |
             rules
