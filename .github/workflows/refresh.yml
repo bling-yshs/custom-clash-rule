@@ -12,5 +12,5 @@ jobs:
         uses: bling-yshs/purge-jsdelivr-for-directory@v1.0
         with:
           path: |
-            
+            rules
           retry: '3'
