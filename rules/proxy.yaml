@@ -1,5 +1,6 @@
 payload:
   #代理
+  - DOMAIN-KEYWORD,yshs
   - DOMAIN-KEYWORD,jetbrains
   - DOMAIN-KEYWORD,zhtec
   - DOMAIN-KEYWORD,gptgod
