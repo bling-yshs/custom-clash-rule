@@ -1,9 +1,8 @@
 payload:
   #代理
-  - DOMAIN-KEYWORD,yshs
-  - DOMAIN-KEYWORD,jetbrains
-  - DOMAIN-KEYWORD,zhtec
-  - DOMAIN-KEYWORD,gptgod
+  # - DOMAIN-KEYWORD,yshs
+  # - DOMAIN-KEYWORD,zhtec
+  # - DOMAIN-KEYWORD,gptgod
   # 内容：Epic
   # 数量：5条
   - DOMAIN-SUFFIX,epicgames.com
@@ -11,3 +10,5 @@ payload:
   - DOMAIN-SUFFIX,helpshift.com
   - DOMAIN-SUFFIX,paragon.com
   - DOMAIN-SUFFIX,unrealengine.com
+  # jetb
+  - DOMAIN-KEYWORD,jetbrains
