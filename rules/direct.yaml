@@ -2,6 +2,6 @@ payload:
   #直连
   - DOMAIN-KEYWORD,githubcopilot
   - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-KEYWORD,yshs
-  - DOMAIN-KEYWORD,zhtec
+  # - DOMAIN-KEYWORD,yshs
+  # - DOMAIN-KEYWORD,zhtec
   - DOMAIN-KEYWORD,gptgod

@@ -1,7 +1,7 @@
 payload:
   #代理
-  # - DOMAIN-KEYWORD,yshs
-  # - DOMAIN-KEYWORD,zhtec
+  - DOMAIN-KEYWORD,yshs
+  - DOMAIN-KEYWORD,zhtec
   # - DOMAIN-KEYWORD,gptgod
   # 内容：Epic
   # 数量：5条
