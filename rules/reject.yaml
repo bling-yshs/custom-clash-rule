@@ -1,0 +1,6 @@
+payload:
+  # 拦截 Adobe
+  - DOMAIN-SUFFIX,adobe.io
+  - DOMAIN-SUFFIX,adobestats.io
+  - DOMAIN,gocart-web-prod-ue1-alb-1461435473.us-east-1.elb.amazonaws.com
+  - DOMAIN,prod.adobegenuine.com
