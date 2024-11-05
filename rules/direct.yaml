@@ -1,6 +1,5 @@
 payload:
   #直连
-  - DOMAIN-KEYWORD,githubcopilot
   - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,bing.com
   # - DOMAIN-KEYWORD,yshs
