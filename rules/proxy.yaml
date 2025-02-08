@@ -1,5 +1,6 @@
 payload:
   #代理
+  - DOMAIN-SUFFIX,api-buddy.cn
   - DOMAIN-KEYWORD,fantasyfinal
   - DOMAIN-KEYWORD,githubcopilot
   # - DOMAIN-SUFFIX,yshs.fun
