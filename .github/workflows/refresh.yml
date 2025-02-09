@@ -5,8 +5,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  refresh-jsdelivr:
+  upload-to-alist:
     runs-on: ubuntu-22.04
     steps:
+      - name: clone
+        uses: actions/checkout@v4
       - name: 上传到 Alist
         run: python .github/scripts/up.py admin ${{secrets.ALIST_PASSWORD}} rules /share
