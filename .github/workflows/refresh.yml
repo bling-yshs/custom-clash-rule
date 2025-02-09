@@ -1,16 +1,12 @@
-name: refresh jsdelivr
-run-name: 'refresh jsdelivr'
+name: upload-to-alist
+run-name: 上传到 Alist
 on:
   push:
   workflow_dispatch:
 
 jobs:
   refresh-jsdelivr:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
-      - name: Purge jsDelivr cache
-        uses: bling-yshs/purge-jsdelivr-for-directory@v1.0.0
-        with:
-          path: |
-            rules
-          retry: '3'
+      - name: 上传到 Alist
+        run: python .github/scripts/up.py admin ${{secrets.ALIST_PASSWORD}} rules /share
