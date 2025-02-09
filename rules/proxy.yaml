@@ -1,5 +1,7 @@
 payload:
   #代理
+  - DOMAIN-SUFFIX,feemoo.com
+  - DOMAIN-SUFFIX,jumao.net
   - DOMAIN-SUFFIX,jumao.net
   - DOMAIN-SUFFIX,jmdyh.com
   - DOMAIN-SUFFIX,api-buddy.cn
