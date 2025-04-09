@@ -1,5 +1,6 @@
 payload:
   #代理
+  - DOMAIN-SUFFIX,linux.do
   - DOMAIN-SUFFIX,feemoo.com
   - DOMAIN-SUFFIX,jumao.net
   - DOMAIN-SUFFIX,jumao.net
