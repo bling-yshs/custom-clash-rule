@@ -5,3 +5,6 @@ payload:
   # - DOMAIN-KEYWORD,yshs
   # - DOMAIN-KEYWORD,zhtec
   # - DOMAIN-KEYWORD,gptgod
+  
+  # 内容：Cursor
+  - DOMAIN-SUFFIX,cursor.sh

@@ -21,6 +21,3 @@ payload:
   - DOMAIN-SUFFIX,unrealengine.com
   # jetb
   - DOMAIN-KEYWORD,jetbrains
-  
-  # 内容：Cursor
-  - DOMAIN-SUFFIX,cursor.sh
