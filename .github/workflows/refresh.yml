@@ -17,5 +17,6 @@ jobs:
           alist-username: 'admin'
           alist-password: ${{secrets.ALIST_PASSWORD}} # <--- 警告：强烈建议使用 Secrets!
           file-path: rules/*.yaml
-          remote-dir: 'private'
+          remote-dir: share/rules
+          overwrite-exist-file: true
 
