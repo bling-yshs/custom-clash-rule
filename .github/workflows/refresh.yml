@@ -12,3 +12,10 @@ jobs:
         uses: actions/checkout@v4
       - name: 上传到 Alist
         uses: bling-yshs/alist-upload@main
+        with:
+          alist-url: 'https://pan.ystech.top'
+          alist-username: 'admin'
+          alist-password: ${{secrets.ALIST_PASSWORD}} # <--- 警告：强烈建议使用 Secrets!
+          file-path: rules/*.yaml
+          remote-dir: 'private'
+
