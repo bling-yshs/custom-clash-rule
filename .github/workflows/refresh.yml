@@ -15,7 +15,7 @@ jobs:
         with:
           alist-url: 'https://pan.ystech.top'
           alist-username: 'admin'
-          alist-password: ${{secrets.ALIST_PASSWORD}} # <--- 警告：强烈建议使用 Secrets!
+          alist-password: ${{secrets.ALIST_PASSWORD}}
           file-path: rules/*.yaml
           remote-dir: share/rules
           overwrite-exist-file: true
