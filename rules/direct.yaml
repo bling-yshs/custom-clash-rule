@@ -1,10 +1,11 @@
 payload:
   #直连
+  - DOMAIN-SUFFIX,linux.do
   - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,bing.com
   # - DOMAIN-KEYWORD,yshs
   # - DOMAIN-KEYWORD,zhtec
   # - DOMAIN-KEYWORD,gptgod
-  
+
   # 内容：Cursor
   - DOMAIN-SUFFIX,cursor.sh
