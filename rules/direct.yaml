@@ -3,6 +3,7 @@ payload:
   - DOMAIN-SUFFIX,linux.do
   - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,yuanshen.site
   # - DOMAIN-KEYWORD,yshs
   # - DOMAIN-KEYWORD,zhtec
   # - DOMAIN-KEYWORD,gptgod
