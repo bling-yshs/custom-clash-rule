@@ -1,7 +1,6 @@
 payload:
   #代理
   - DOMAIN-SUFFIX,haorwen.top
-  - DOMAIN-SUFFIX,yuanshen.site
   - DOMAIN-SUFFIX,feemoo.com
   - DOMAIN-SUFFIX,jumao.net
   - DOMAIN-SUFFIX,jumao.net
