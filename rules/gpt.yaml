@@ -1,6 +1,7 @@
 payload:
   - DOMAIN-SUFFIX,github.dev
   - DOMAIN,newapi.haorwen.top
+  - DOMAIN,ai.prism.uno
 
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,augmentcode.com
