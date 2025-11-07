@@ -1,6 +1,5 @@
 payload:
   #代理
-  - DOMAIN-SUFFIX,linux.do
   - DOMAIN-SUFFIX,haorwen.top
   - DOMAIN-SUFFIX,feemoo.com
   - DOMAIN-SUFFIX,jumao.net
